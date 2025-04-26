@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet">
+    <script src="form.js"></script>
+</head>
+
+<body>
+    <!-- <button onClick="onClick()">Click me</button> -->
+    <form name="formName" onsubmit="submitForm()">
+        <div>
+            <label for="nameid">Name</label>
+            <span style="color: red;">*</span>
+            <span>:</span>
+            <input type="text" id="nameid" name="nameN" required>
+        </div>
+        <div>
+            <label for="ageid">Age</label>
+            <span style="color: red;">*</span>
+            <span>:</span>
+            <input type="text" id="ageid" name="ageN" required>
+        </div>
+        <div>
+            <label for="numberid">Number</label>
+            <span style="color: red;">*</span>
+            <span>:</span>
+            <input type="text" id="numberid" name="numberN" required>
+        </div>
+        <div>
+            <label for="emailid">Email</label>
+            <span style="color: red;">*</span>
+            <span>:</span>
+            <input type="email" id="emailid" name="emailN" required>
+        </div>
+        <div>
+            <label for="genderid">Gender</label>
+            <span style="color: red;">*</span>
+            <span>:</span>
+            <label>Male</label>
+            <input type="radio" name="gender" id="Male" value="Male">
+            <label>Female</label>
+            <input type="radio" name="gender" id="Male" value="Male">
+        </div>
+        <div>
+            <label for="usnid">USN</label>
+            <span style="color: red;">*</span>
+            <span>:</span>
+            <input type="text" id="usnid" name="usnN" required>
+        </div>
+        <div>
+            <button type="submit" value="Submit">Submit</button>
+            <button type="reset" value="Clear">Clear</button>
+        </div>
+    </form>
+</body>
+
+</html>
